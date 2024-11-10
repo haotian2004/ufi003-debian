@@ -16,7 +16,7 @@ apt purge linux-image*
 apt install ./linux-image*.deb
 dd if=/tmp/boot.img of=/dev/disk/by-partlabel/boot bs=1M
 reboot
-```
+````
 
 ## 本地构建
 1. 克隆本仓库
